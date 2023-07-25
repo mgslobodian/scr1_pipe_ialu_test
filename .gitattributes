@@ -1,0 +1,15 @@
+# Detect text files and perform LF normalization
+* text=auto
+
+## git
+.gitattributes  text
+.gitignore      text
+.gitmodules     text
+.gitkeep        text
+
+## HDL
+*.sv    text
+*.svh   text
+
+## script
+*.py   text

@@ -1,0 +1,18 @@
+# Waveforms
+*.vcd
+
+# Reports
+*.dat
+*.info
+*.xml
+
+/*
+!/rtl/
+!/test/
+!/.gitattributes
+!/.gitignore
+!/README.md
+
+/test/__pycache__
+/test/sim_build
+
